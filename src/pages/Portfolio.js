@@ -300,6 +300,9 @@ const A = styled.a`
   text-decoration: none;
   color: black;
   font-size: 15px;
+  :hover {
+    color: #42acc6;
+  }
   @media (max-width: 400px) {
     /* margin-top: 20px; */
     padding: 0 10px;
