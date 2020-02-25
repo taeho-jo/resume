@@ -23,14 +23,15 @@ const Portfolio = () => {
               <Span>( 20.01.28 ~ 20.02.21 )</Span>
             </Subject>
             <Contents>
-              <Iframe
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title="video"
-                src="https://www.youtube.com/embed/NNzrzl_fcUw"
-              />
               <Div>
+                <Iframe
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="video"
+                  src="https://www.youtube.com/embed/NNzrzl_fcUw"
+                />
+                <br />
                 <A
                   target="_blank"
                   href="https://github.com/taeho-jo/deus_teaser"
@@ -39,18 +40,23 @@ const Portfolio = () => {
                 </A>{" "}
                 /{" "}
                 <A target="_blank" href="http://deusadventures.com/">
-                  site url
+                  Site URL
                 </A>
+              </Div>
+              <Div>
+                <Iframe
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="video"
+                  src="https://www.youtube.com/embed/6RGvieZ0ZXQ"
+                />
                 <br />
                 <A
                   target="_blank"
                   href="https://github.com/taeho-jo/deus_adventures"
                 >
                   Auth Page Github
-                </A>{" "}
-                /{" "}
-                <A target="_blank" href="https://youtu.be/8cSX7J_tbAo">
-                  Auth Page youtube
                 </A>
               </Div>
               <Description>Description</Description>
@@ -290,7 +296,14 @@ const Div = styled.div`
 `;
 
 const A = styled.a`
+  /* display: inline-block; */
   text-decoration: none;
   color: black;
   font-size: 15px;
+  @media (max-width: 400px) {
+    /* margin-top: 20px; */
+    padding: 0 10px;
+    text-align: center;
+    min-width: 350px;
+  }
 `;
