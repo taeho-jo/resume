@@ -8,19 +8,20 @@ const Layout = ({ children, history }) => {
       <Header>
         <Name onClick={() => history.push("/")}>조태호 | Jotang</Name>
         <div>
+          <Home onClick={() => history.push("/")}>Home</Home>
           <Menu onClick={() => history.push("/about")}>About</Menu>
           <Menu onClick={() => history.push("/portfolio")}>Portfolio</Menu>
           <Menu onClick={() => history.push("/stack")}>Stack</Menu>
-          <Menu>
+          <Link>
             <A target="_blank" href="https://github.com/taeho-jo">
               Github
             </A>
-          </Menu>
-          <Menu>
+          </Link>
+          <Link>
             <A target="_blank" href="https://taeho-jo.github.io/">
               Blog
             </A>
-          </Menu>
+          </Link>
         </div>
       </Header>
       <Main>{children}</Main>
@@ -39,7 +40,20 @@ const Header = styled.nav`
   justify-content: space-between;
   align-items: center;
   background: #fff;
+  @media (max-width: 720px) {
+    width: 100%;
+    max-width: 720px;
+    justify-content: space-around;
+    padding: 0;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 350px;
+    padding: 0;
+    justify-content: space-around;
+  }
 `;
+
 const Name = styled.h1`
   font-size: 24px;
   color: #57606f;
@@ -47,7 +61,11 @@ const Name = styled.h1`
   :hover {
     text-shadow: 1px 1px 3px #d1d8e0;
   }
+  @media (max-width: 720px) {
+    display: none;
+  }
 `;
+
 const Menu = styled.span`
   font-size: 15px;
   margin-right: 30px;
@@ -58,6 +76,22 @@ const Menu = styled.span`
   }
   :hover {
     border-bottom: 2px solid #42acc6;
+  }
+  @media (max-width: 400px) {
+    margin: 0 15px;
+  }
+`;
+const Home = styled(Menu)`
+  display: none;
+  @media (max-width: 400px) {
+    display: inline-block;
+    margin: 0 15px;
+  }
+`;
+
+const Link = styled(Menu)`
+  @media (max-width: 400px) {
+    display: none;
   }
 `;
 
@@ -76,5 +110,4 @@ const A = styled.a`
 `;
 const Main = styled.main`
   /* border: 1px solid red; */
-  margin-top: 70px;
 `;

@@ -22,7 +22,7 @@ const Stack = () => {
           />
           <MainSkills title="JavaScript" content={js} />
           <MainSkills title="React" content={react} />
-          <MainSkills title="기타" content={etc} />
+          <MainSkills title="기 타" content={etc} />
         </Main>
       </Container>
     </Layout>
@@ -32,12 +32,28 @@ const Stack = () => {
 export default Stack;
 
 const Container = styled.div`
+  margin-top: 30px;
   display: flex;
   justify-content: center;
+  @media (max-width: 830px) {
+    width: 100%;
+    /* min-width: 350px; */
+    margin-top: 10px;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 350px;
+    margin-top: 10px;
+  }
 `;
 const Main = styled.div`
   /* border: 1px solid black; */
   width: 100%;
   max-width: 800px;
   padding: 20px 50px 0 50px;
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 350px;
+    padding: 0 20px;
+  }
 `;

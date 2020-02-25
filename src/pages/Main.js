@@ -20,10 +20,15 @@ const Main = ({ history }) => {
 export default withRouter(Main);
 
 const MainContainer = styled.main`
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 350px;
+  }
 `;
 
 const Photo = styled.div`
@@ -34,6 +39,10 @@ const Photo = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
+  @media (max-width: 400px) {
+    width: 200px;
+    height: 200px;
+  }
 `;
 const Name = styled.h1`
   font-size: 50px;
@@ -41,6 +50,9 @@ const Name = styled.h1`
   margin-top: 30px;
   letter-spacing: normal;
   color: #57606f;
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
 `;
 const Content = styled.h2`
   font-size: 20px;

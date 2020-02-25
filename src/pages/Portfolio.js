@@ -23,13 +23,11 @@ const Portfolio = () => {
               <Span>( 20.01.28 ~ 20.02.21 )</Span>
             </Subject>
             <Contents>
-              <iframe
+              <Iframe
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
                 allowFullScreen
                 title="video"
-                width="504px"
-                height="315px"
                 src="https://www.youtube.com/embed/NNzrzl_fcUw"
               />
               <Div>
@@ -80,7 +78,7 @@ const Portfolio = () => {
               <Span>( 20.01.28 ~ 20.02.21 )</Span>
             </Subject>
             <Contents>
-              <Image />
+              <Image src={image} />
               <Div>
                 <A
                   target="_blank"
@@ -111,14 +109,12 @@ const Portfolio = () => {
               <Span>( 20.01.28 ~ 20.02.21 )</Span>
             </Subject>
             <Contents>
-              <iframe
+              <Iframe
                 src="https://www.youtube.com/embed/AZ71h90ajN0"
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
                 allowFullScreen
                 title="video"
-                width="504px"
-                height="315px"
               />
               <Div>
                 <A
@@ -152,14 +148,32 @@ const Portfolio = () => {
 export default withRouter(Portfolio);
 
 const Container = styled.div`
+  width: 100%;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 350px;
+    margin-top: 10px;
+  }
 `;
 const Main = styled.div`
-  /* border: 1px solid black; */
+  /* border: 2px solid red; */
   width: 100%;
   max-width: 900px;
   padding: 20px 50px 0 50px;
+  @media (max-width: 830px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 550px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 400px) {
+    margin-left: 0px;
+    padding: 0;
+    min-width: 350px;
+  }
 `;
 const Title = styled.h1`
   font-size: 45px;
@@ -167,46 +181,108 @@ const Title = styled.h1`
   margin-bottom: 20px;
   cursor: pointer;
   /* color: #57606f; */
+  @media (max-width: 830px) {
+    text-align: center;
+    font-size: 55px;
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    min-width: 350px;
+    width: 100%;
+  }
 `;
 
 const Box = styled.div`
   width: 100%;
   display: flex;
   border-bottom: 1px solid gray;
+  @media (max-width: 830px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 400px) {
+    min-width: 320px;
+    width: 100%;
+  }
 `;
 const Subject = styled.div`
   width: 400px;
   font-size: 24px;
   font-weight: 700;
   margin-top: 30px;
-  /* border: 1px solid green; */
-  /* border-right: 1px solid gray; */
-  //
+  @media (max-width: 830px) {
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    min-width: 350px;
+    width: 100%;
+  }
 `;
 const Span = styled.span`
   margin-top: 10px;
   margin-bottom: 30px;
   display: inline-block;
   font-size: 16px;
+  @media (max-width: 830px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 550px) {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    padding: 0 20px;
+  }
 `;
 const Contents = styled.div`
   width: 100%;
   /* border: 1px solid b  lue; */
   padding-left: 20px;
   padding-top: 40px;
+  @media (max-width: 830px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  @media (max-width: 400px) {
+    min-width: 350px;
+    width: 100%;
+  }
 `;
+const Iframe = styled.iframe``;
 
 const Description = styled.p`
   font-size: 24px;
   font-weight: 700;
   margin-top: 15px;
+  @media (max-width: 830px) {
+    /* min-width: 350px; */
+    width: 100%;
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    min-width: 350px;
+    width: 100%;
+    text-align: center;
+  }
 `;
-const Image = styled.div`
-  background-image: url(${image});
+const Image = styled.img`
+  width: 100%;
+  /* height: 100%; */
+  /* background-image: url(${image});
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 504px;
-  height: 260px;
+  background-size: contain; */
+  max-width: 504px;
+  /* max-height: 260px; */
+  @media (max-width: 400px) {
+    /* margin: 0 20px; */
+    min-width: 350px;
+    
+  }
 `;
 
 const Div = styled.div`

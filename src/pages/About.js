@@ -51,14 +51,28 @@ const About = ({ history }) => {
 export default withRouter(About);
 
 const Container = styled.div`
+  margin-top: 30px;
   display: flex;
   justify-content: center;
+  @media (max-width: 400px) {
+    width: 100%;
+    /* border: 0px solid green; */
+    min-width: 350px;
+  }
 `;
 const Main = styled.div`
   /* border: 1px solid black; */
   width: 100%;
   max-width: 800px;
   padding: 20px 50px 0 50px;
+  @media (max-width: 720px) {
+    padding: 0 50px;
+    /* min-width: 400px; */
+  }
+  @media (max-width: 400px) {
+    min-width: 350px;
+    padding: 0 20px;
+  }
 `;
 const Title = styled.h1`
   font-size: 45px;
@@ -66,24 +80,42 @@ const Title = styled.h1`
   margin-bottom: 20px;
   cursor: pointer;
   /* color: #57606f; */
+  @media (max-width: 400px) {
+    text-align: center;
+    font-size: 40px;
+  }
 `;
 const Content = styled.section`
   font-size: 20px;
   letter-spacing: normal;
   /* color: #57606f; */
   margin-bottom: 40px;
+  @media (max-width: 400px) {
+    /* text-align: left; */
+    padding: 0 10px;
+    font-size: 16px;
+  }
 `;
 const SubTitle = styled.p`
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
+  @media (max-width: 400px) {
+    padding: 0 10px;
+  }
 `;
 const SubContent = styled.p`
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
+  @media (max-width: 400px) {
+    padding: 0 10px;
+  }
 `;
 const Text = styled.p`
   font-size: 18px;
   margin-bottom: 60px;
+  @media (max-width: 400px) {
+    padding: 0 10px;
+  }
 `;
