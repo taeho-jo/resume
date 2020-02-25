@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.cdb162eb.chunk.js",
-    "main.js.map": "/resume/static/js/main.cdb162eb.chunk.js.map",
+    "main.js": "/resume/static/js/main.59e5e561.chunk.js",
+    "main.js.map": "/resume/static/js/main.59e5e561.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.4beab0ad.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.4beab0ad.js.map",
     "static/js/2.796f25aa.chunk.js": "/resume/static/js/2.796f25aa.chunk.js",
     "static/js/2.796f25aa.chunk.js.map": "/resume/static/js/2.796f25aa.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.024d0e52d2febc6ecc1c491e6903bc62.js": "/resume/precache-manifest.024d0e52d2febc6ecc1c491e6903bc62.js",
+    "precache-manifest.fa7051f54eed50c4c345bfed22f86943.js": "/resume/precache-manifest.fa7051f54eed50c4c345bfed22f86943.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/js/2.796f25aa.chunk.js.LICENSE": "/resume/static/js/2.796f25aa.chunk.js.LICENSE",
     "static/media/KeepCalm-Medium.ttf": "/resume/static/media/KeepCalm-Medium.52c3a1cf.ttf",
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.4beab0ad.js",
     "static/js/2.796f25aa.chunk.js",
-    "static/js/main.cdb162eb.chunk.js"
+    "static/js/main.59e5e561.chunk.js"
   ]
 }
