@@ -3,13 +3,6 @@ import styled from "styled-components";
 import { withRouter } from "react-router-dom";
 import Table from "../components/Table";
 import Layout from "../components/Layout";
-import Skills from "../components/Skills";
-import { Html, Js, Reactt, Etc } from "../data/SkillsArr";
-
-const html = Html.map(el => <Skills el={el}></Skills>);
-const js = Js.map(el => <Skills el={el}></Skills>);
-const react = Reactt.map(el => <Skills el={el}></Skills>);
-const etc = Etc.map(el => <Skills el={el}></Skills>);
 
 const About = ({ history }) => {
   return (
