@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/resume/static/js/main.cdb162eb.chunk.js",
+    "main.js.map": "/resume/static/js/main.cdb162eb.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.4beab0ad.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.4beab0ad.js.map",
+    "static/js/2.796f25aa.chunk.js": "/resume/static/js/2.796f25aa.chunk.js",
+    "static/js/2.796f25aa.chunk.js.map": "/resume/static/js/2.796f25aa.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.024d0e52d2febc6ecc1c491e6903bc62.js": "/resume/precache-manifest.024d0e52d2febc6ecc1c491e6903bc62.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/js/2.796f25aa.chunk.js.LICENSE": "/resume/static/js/2.796f25aa.chunk.js.LICENSE",
+    "static/media/KeepCalm-Medium.ttf": "/resume/static/media/KeepCalm-Medium.52c3a1cf.ttf",
+    "static/media/Rounded_Elegance.ttf": "/resume/static/media/Rounded_Elegance.21c892a7.ttf",
+    "static/media/dream_orphans.ttf": "/resume/static/media/dream_orphans.4420630c.ttf",
+    "static/media/justsell.png": "/resume/static/media/justsell.ebc87fb3.png",
+    "static/media/profile2.jpg": "/resume/static/media/profile2.583744da.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4beab0ad.js",
+    "static/js/2.796f25aa.chunk.js",
+    "static/js/main.cdb162eb.chunk.js"
+  ]
+}
