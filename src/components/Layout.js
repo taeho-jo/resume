@@ -9,9 +9,32 @@ const Layout = ({ children, history }) => {
         <Name onClick={() => history.push("/")}>조태호 | Jotang</Name>
         <div>
           <Home onClick={() => history.push("/")}>Home</Home>
-          <Menu onClick={() => history.push("/about")}>About</Menu>
-          <Menu onClick={() => history.push("/portfolio")}>Portfolio</Menu>
-          <Menu onClick={() => history.push("/stack")}>Stack</Menu>
+          <Menu
+            path={
+              window.location.pathname === "/about" ? "2px solid #42acc6" : ""
+            }
+            onClick={() => history.push("/about")}
+          >
+            About
+          </Menu>
+          <Menu
+            path={
+              window.location.pathname === "/portfolio"
+                ? "2px solid #42acc6"
+                : ""
+            }
+            onClick={() => history.push("/portfolio")}
+          >
+            Portfolio
+          </Menu>
+          <Menu
+            path={
+              window.location.pathname === "/stack" ? "2px solid #42acc6" : ""
+            }
+            onClick={() => history.push("/stack")}
+          >
+            Stack
+          </Menu>
           <Link>
             <A target="_blank" href="https://github.com/taeho-jo">
               Github
@@ -67,10 +90,12 @@ const Name = styled.h1`
 `;
 
 const Menu = styled.span`
+  /* display: inline-block; */
   font-size: 15px;
   margin-right: 30px;
   cursor: pointer;
   color: #57606f;
+  border-bottom: ${props => props.path};
   :last-child {
     margin: 0;
   }
