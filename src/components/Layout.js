@@ -12,10 +12,14 @@ const Layout = ({ children, history }) => {
           <Menu onClick={() => history.push("/portfolio")}>Portfolio</Menu>
           <Menu onClick={() => history.push("/stack")}>Stack</Menu>
           <Menu>
-            <A href="https://github.com/taeho-jo">Github</A>
+            <A target="_blank" href="https://github.com/taeho-jo">
+              Github
+            </A>
           </Menu>
           <Menu>
-            <A href="https://taeho-jo.github.io/">Blog</A>
+            <A target="_blank" href="https://taeho-jo.github.io/">
+              Blog
+            </A>
           </Menu>
         </div>
       </Header>

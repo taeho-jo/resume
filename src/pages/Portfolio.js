@@ -33,15 +33,27 @@ const Portfolio = () => {
                 src="https://www.youtube.com/embed/NNzrzl_fcUw"
               />
               <Div>
-                <A href="https://github.com/taeho-jo/deus_teaser">
+                <A
+                  target="_blank"
+                  href="https://github.com/taeho-jo/deus_teaser"
+                >
                   Launcher Page Github
                 </A>{" "}
-                / <A href="http://deusadventures.com/">site url</A>
+                /{" "}
+                <A target="_blank" href="http://deusadventures.com/">
+                  site url
+                </A>
                 <br />
-                <A href="https://github.com/taeho-jo/deus_adventures">
+                <A
+                  target="_blank"
+                  href="https://github.com/taeho-jo/deus_adventures"
+                >
                   Auth Page Github
                 </A>{" "}
-                / <A href="https://youtu.be/8cSX7J_tbAo">Auth Page youtube</A>
+                /{" "}
+                <A target="_blank" href="https://youtu.be/8cSX7J_tbAo">
+                  Auth Page youtube
+                </A>
               </Div>
               <Description>Description</Description>
               <Span>
@@ -70,7 +82,10 @@ const Portfolio = () => {
             <Contents>
               <Image />
               <Div>
-                <A href="https://github.com/wecode-bootcamp-korea/justSell_frontend">
+                <A
+                  target="_blank"
+                  href="https://github.com/wecode-bootcamp-korea/justSell_frontend"
+                >
                   Github
                 </A>
               </Div>
@@ -106,7 +121,10 @@ const Portfolio = () => {
                 height="315px"
               />
               <Div>
-                <A href="https://github.com/wecode-bootcamp-korea/weHome_frontend)">
+                <A
+                  target="_blank"
+                  href="https://github.com/wecode-bootcamp-korea/weHome_frontend)"
+                >
                   Github
                 </A>
               </Div>

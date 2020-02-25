@@ -10,6 +10,7 @@ const Main = ({ history }) => {
       <MainContainer>
         <Photo />
         <Name>조태호</Name>
+        <Content>Frontend Developer</Content>
         <Button onClick={() => history.push("/about")}>welcome →</Button>
       </MainContainer>
     </Layout>
@@ -40,6 +41,12 @@ const Name = styled.h1`
   margin-top: 30px;
   letter-spacing: normal;
   color: #57606f;
+`;
+const Content = styled.h2`
+  font-size: 20px;
+  letter-spacing: normal;
+  color: #57606f;
+  /* margin-bottom: 40px; */
 `;
 const Button = styled.button`
   background: #42acc6;
