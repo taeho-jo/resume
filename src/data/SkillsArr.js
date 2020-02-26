@@ -36,7 +36,7 @@ export const JustSell = [
   "공통 nav 작업",
   "JWT token을 기반으로 Login 기능 구현",
   "Login 기능 구현",
-  "edux를 이용한 언어 전환",
+  "Redux를 이용한 언어 전환",
   "Version Control(Git)을 이용한 협업",
   "chart library 이용하여 통계 그래프 구현"
 ];
