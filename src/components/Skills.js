@@ -11,6 +11,7 @@ const Content = styled.li`
   font-size: 16px;
   margin-top: 15px;
   margin-left: 20px;
+  letter-spacing: normal;
   @media (max-width: 830px) {
     margin-left: 0;
     padding: 0 20px;
