@@ -10,6 +10,7 @@ export const Js = [
   "Promise, async/await 비동기 처리를 이해하고 있습니다."
 ];
 export const Reactt = [
+  "Virtual DOM을 이해하고 있습니다.",
   "SPA를 이해하고 있습니다.",
   "props와 state에 대해 이해하고 사용할 줄 압니다.",
   "LifeCycle method를 적절한 상황에 사용할 줄 압니다.",
@@ -33,6 +34,7 @@ export const Intership = [
 
 export const JustSell = [
   "공통 nav 작업",
+  "JWT token을 기반으로 Login 기능 구현",
   "Login 기능 구현",
   "edux를 이용한 언어 전환",
   "Version Control(Git)을 이용한 협업",
@@ -42,5 +44,6 @@ export const JustSell = [
 export const Wehome = [
   "집들이 상세 page & 상품 상세 page",
   "댓글 pagination",
-  "제품 상세 옵션 선택 기능"
+  "제품 상세 옵션 선택 기능",
+  "react-router 사용"
 ];

@@ -98,7 +98,8 @@ const Portfolio = () => {
                 JustSell은 상품 유통 운영 관리 서비스로 next.js를
                 사용하였습니다. SSR과 SEO에 대해 이해하게 되었고, 라이브러리의
                 사용 대신 redux를 이용하여 언어전환을 하면서 redux에 대해 이해를
-                하였습니다.
+                하였습니다. hooks를 사용하여 useState, useEffect 등에 대해 이해
+                할 수 있었고, 로그인 기능은 JWT token을 기반으로 구현하였습니다.
               </Span>
               <Div>
                 <Description>I Did</Description>
@@ -132,10 +133,12 @@ const Portfolio = () => {
               </Div>
               <Description>Description</Description>
               <Span>
-                weHome은 오늘의 집 clone Project로 props와 state를 이해하게
-                되었고, API를 주고받으며 life cycle method에 대한 이해를
-                하였습니다. layout구조를 잡으며 flex-box를 이해 할 수
-                있었습니다.
+                weHome은 오늘의 집 clone Project로 class형 components를
+                사용하였고, react의 props와 state의 개념을 이해하게 되었고,
+                API를 주고받으며 life cycle method에 대한 이해를 하였습니다.
+                react의 onClick, onChange 등 여러가지 event를 구현하며 event에
+                관하여 충분한 이해를 하였습니다. layout구조를 잡으며 flex-box를
+                이해 할 수 있었습니다.
               </Span>
               <Div>
                 <Description>I Did</Description>
