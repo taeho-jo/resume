@@ -84,7 +84,14 @@ const Portfolio = () => {
               <Span>( 20.01.28 ~ 20.02.21 )</Span>
             </Subject>
             <Contents>
-              <Image src={image} />
+              {/* <Image src={image} /> */}
+              <Iframe
+                src="https://www.youtube.com/embed/YjyR5L-loWw"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title="video"
+              />
               <Div>
                 <A
                   target="_blank"
