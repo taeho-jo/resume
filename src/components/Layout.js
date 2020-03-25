@@ -43,7 +43,7 @@ const Layout = ({ children, history }) => {
             </A>
           </Link>
           <Link>
-            <A target="_blank" href="https://taeho-jo.github.io/">
+            <A target="_blank" href="https://taehoblog.netlify.com/">
               Blog
             </A>
           </Link>

@@ -25,9 +25,11 @@ const About = ({ history }) => {
             margin="40px"
             border="1px solid #778ca3"
             title="Blog"
-            content="https://taeho-jo.github.io"
+            content="https://taehoblog.netlify.com/"
           />
           <SubTitle>💻 개발 경력</SubTitle>
+          <SubContent>CIZION(시지온)</SubContent>
+          <Text>- 2020.03 ~ 현재</Text>
           <SubContent>weCode(위코드)</SubContent>
           <Text>- 2019.11 ~ 2020.02</Text>
           <SubTitle>🏢 이전 경력</SubTitle>
