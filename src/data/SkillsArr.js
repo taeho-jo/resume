@@ -17,6 +17,7 @@ export const Reactt = [
   "전역상태관리(Redux, MobX)를 이용한 경험이 있습니다.",
   "Hooks를 사용할 줄 압니다."
 ];
+
 export const Vue = [
   'template문법을 이해하고 있습니다',
   'vue의 LifeCycle을 이해하고 있습니다.',
