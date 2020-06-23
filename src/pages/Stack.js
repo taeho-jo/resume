@@ -1,13 +1,14 @@
 import React from "react";
 import MainSkills from "components/MainSkills";
 import Skills from "../components/Skills";
-import { Html, Js, Reactt, Etc } from "../data/SkillsArr";
+import { Html, Js, Reactt, Vue, Etc } from "../data/SkillsArr";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 
 const html = Html.map(el => <Skills el={el}></Skills>);
 const js = Js.map(el => <Skills el={el}></Skills>);
 const react = Reactt.map(el => <Skills el={el}></Skills>);
+const vue = Vue.map(el => <Skills el={el}></Skills>);
 const etc = Etc.map(el => <Skills el={el}></Skills>);
 
 const Stack = () => {
@@ -22,6 +23,7 @@ const Stack = () => {
           />
           <MainSkills title="JavaScript" content={js} />
           <MainSkills title="React" content={react} />
+          <MainSkills title="Vue" content={vue} />
           <MainSkills title="기 타" content={etc} />
         </Main>
       </Container>

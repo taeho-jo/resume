@@ -17,6 +17,12 @@ export const Reactt = [
   "전역상태관리(Redux, MobX)를 이용한 경험이 있습니다.",
   "Hooks를 사용할 줄 압니다."
 ];
+export const Vue = [
+  'template문법을 이해하고 있습니다',
+  'vue의 LifeCycle을 이해하고 있습니다.',
+  'vuex를 이용한 전역 상태 관리를 한 경험이 있습니다.',
+];
+
 export const Etc = [
   "next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.",
   "Version Control(Git)을 이용한 협업에 익숙합니다.",
