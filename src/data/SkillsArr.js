@@ -27,7 +27,7 @@ export const Etc = [
   "next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.",
   "Version Control(Git)을 이용한 협업에 익숙합니다.",
   "firebase 인증기능을 이용한 경험이 있습니다.",
-  "typescript, react-native를 학습 중입니다."
+  "react-native를 학습 중입니다."
 ];
 
 export const Intership = [
