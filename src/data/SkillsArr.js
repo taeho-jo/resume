@@ -1,35 +1,39 @@
 export const Html = [
-  "Semantic MarkUp을 준수합니다.",
-  "Document Object Model(DOM)을 이해하고 있습니다.",
-  "CSS3, SASS, Styled-Components를 사용합니다.",
-  "float, flex, grid에 대해 알고 있습니다.",
-  "Responsive Web을 이해하고 있습니다."
+  "Semantic MarkUp",
+  "CSS3, SCSS, Styled-Components",
+  "flex-box",
+  "Responsive Web"
 ];
 export const Js = [
   "ES5와 ES6 이후의 문법에 익숙합니다.",
-  "Promise, async/await 비동기 처리를 이해하고 있습니다."
+  "Promise, async/await"
 ];
 export const Reactt = [
-  "Virtual DOM을 이해하고 있습니다.",
   "SPA를 이해하고 있습니다.",
-  "props와 state에 대해 이해하고 사용할 줄 압니다.",
-  "LifeCycle method를 적절한 상황에 사용할 줄 압니다.",
-  "전역상태관리(Redux, MobX)를 이용한 경험이 있습니다.",
-  "Hooks를 사용할 줄 압니다."
+  "class Components / Hooks",
+  "전역 상태 관리 (redux, mobX )",
+  "React의 LifeCycle를 이해하고 있습니다.",
 ];
 
 export const Vue = [
-  'template문법을 이해하고 있습니다',
-  'vue의 LifeCycle을 이해하고 있습니다.',
-  'vuex를 이용한 전역 상태 관리를 한 경험이 있습니다.',
+  "vue의 LifeCycle을 이해하고 있습니다.",
+  "vuex를 이용한 전역 상태 관리를 할 줄 압니다.",
 ];
 
-export const Etc = [
-  "next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.",
-  "Version Control(Git)을 이용한 협업에 익숙합니다.",
-  "firebase 인증기능을 이용한 경험이 있습니다.",
-  "react-native를 학습 중입니다."
-];
+// export const Etc = [
+//   "next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.",
+//   "Version Control(Git)을 이용한 협업에 익숙합니다.",
+//   "firebase 인증기능을 이용한 경험이 있습니다.",
+//   "react-native를 학습 중입니다."
+// ];
+
+export const Cizion = [
+  "Vue.js를 사용하여 통계 어드민 페이지 개발.",
+  "통계 그래프 및 통계 테이블 개선 작업.",
+  "상품 랜딩페이지 UI/UX 개선 작업.",
+  "어트랙트 솔루션 기능 개발(구매 태그)",
+  "Google Analytics를 사용하여 사용자 행동분석 및 A/B 테스트 진행."
+]
 
 export const Intership = [
   "React를 이용한 Launcher page 리뉴얼",

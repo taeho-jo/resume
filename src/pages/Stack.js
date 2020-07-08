@@ -9,7 +9,7 @@ const html = Html.map(el => <Skills el={el}></Skills>);
 const js = Js.map(el => <Skills el={el}></Skills>);
 const react = Reactt.map(el => <Skills el={el}></Skills>);
 const vue = Vue.map(el => <Skills el={el}></Skills>);
-const etc = Etc.map(el => <Skills el={el}></Skills>);
+// const etc = Etc.map(el => <Skills el={el}></Skills>);
 
 const Stack = () => {
   return (
@@ -24,7 +24,7 @@ const Stack = () => {
           <MainSkills title="JavaScript" content={js} />
           <MainSkills title="React" content={react} />
           <MainSkills title="Vue" content={vue} />
-          <MainSkills title="기 타" content={etc} />
+          {/*<MainSkills title="기 타" content={etc} />*/}
         </Main>
       </Container>
     </Layout>

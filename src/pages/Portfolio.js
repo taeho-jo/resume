@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { withRouter } from "react-router-dom";
 import Layout from "../components/Layout";
-import { Intership, JustSell, Wehome } from "../data/SkillsArr";
+import { Cizion, Intership, JustSell, Wehome } from "../data/SkillsArr";
 import Skills from "../components/Skills";
 import image from "../images/justsell.png";
 
+const cizion = Cizion.map(el => <Skills el={el} />)
 const inter = Intership.map(el => <Skills el={el} />);
 const just = JustSell.map(el => <Skills el={el} />);
 const wehome = Wehome.map(el => <Skills el={el} />);
@@ -16,6 +17,21 @@ const Portfolio = () => {
       <Container>
         <Main>
           <Title>Project</Title>
+          <Box>
+            <Subject>
+              CIZION(시지온)
+              <br />
+              <Span>( 20.03 ~ 현 )</Span>
+            </Subject>
+            <Contents>
+              <Div>
+                <Description>I Did</Description>
+                {cizion}
+              </Div>
+              <Description>Stack</Description>
+              <Span>vue.js, vuex, scss</Span>
+            </Contents>
+          </Box>
           <Box>
             <Subject>
               Intership (DeusAdventures)
