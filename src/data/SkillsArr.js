@@ -20,13 +20,6 @@ export const Vue = [
   "vuex를 이용한 전역 상태 관리를 할 줄 압니다.",
 ];
 
-// export const Etc = [
-//   "next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.",
-//   "Version Control(Git)을 이용한 협업에 익숙합니다.",
-//   "firebase 인증기능을 이용한 경험이 있습니다.",
-//   "react-native를 학습 중입니다."
-// ];
-
 export const Cizion = [
   "Vue.js를 사용하여 통계 어드민 페이지 개발.",
   "통계 그래프 및 통계 테이블 개선 작업.",
