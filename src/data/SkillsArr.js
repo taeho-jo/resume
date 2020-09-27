@@ -20,6 +20,13 @@ export const Vue = [
   "vuex를 이용한 전역 상태 관리를 할 줄 압니다.",
 ];
 
+// 프로젝트
+
+export const HelloDigital = [
+  '수원시 무인대여 자전거 타조(TAZO) 어드민 web 개발',
+  // 'KT map을 이용한 디바이스 위치 정보 및 polygon영역 표시',
+]
+
 export const Cizion = [
   "Vue.js를 사용하여 통계 어드민 페이지 개발.",
   "통계 그래프 및 통계 테이블 개선 작업.",

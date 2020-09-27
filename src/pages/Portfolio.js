@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { withRouter } from "react-router-dom";
 import Layout from "../components/Layout";
-import { Cizion, Intership, JustSell, Wehome } from "../data/SkillsArr";
+import {Cizion, HelloDigital, Intership, JustSell, Wehome} from "../data/SkillsArr";
 import Skills from "../components/Skills";
 import image from "../images/justsell.png";
 
+const helloDigital = HelloDigital.map(el => <Skills el={el} />)
 const cizion = Cizion.map(el => <Skills el={el} />)
 const inter = Intership.map(el => <Skills el={el} />);
 const just = JustSell.map(el => <Skills el={el} />);
@@ -19,9 +20,24 @@ const Portfolio = () => {
           <Title>Project</Title>
           <Box>
             <Subject>
+              HelloDigital <br/>&nbsp; - TAZO
+              <br />
+              <Span>( 20.07 ~ 현재 )</Span>
+            </Subject>
+            <Contents>
+              <Div>
+                <Description>I Did</Description>
+                {helloDigital}
+              </Div>
+              <Description>Stack</Description>
+              <Span>React, redux, scss</Span>
+            </Contents>
+          </Box>
+          <Box>
+            <Subject>
               CIZION(시지온)
               <br />
-              <Span>( 20.03 ~ 현 )</Span>
+              <Span>( 20.03 ~ 07 )</Span>
             </Subject>
             <Contents>
               <Div>
